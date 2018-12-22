@@ -5,15 +5,18 @@
     <title>Mon site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="../img/icon.ico" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="css/w3-theme.css">
+    <link rel="stylesheet" href="../css/w3-theme.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css" >
+    <link rel="stylesheet" href="../css/style.css" >
     <style>
       html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
+    <script>hljs.initHighlightingOnLoad();</script>
 
   </head>
 
@@ -22,7 +25,7 @@
     <div class="w3-top">
      <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Accueil</a>
+      <a href="../index.html" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-home w3-margin-right"></i>Accueil</a>
       <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="News"><i class="fa fa-globe"></i></a>
       <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Account Settings"><i class="fa fa-user"></i></a>
       <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title="Messages"><i class="fa fa-envelope"></i></a>
@@ -68,8 +71,8 @@
               </div>
               <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Informatique</button>
               <div id="Demo2" class="w3-hide w3-container">
-                <p><a href="page/python.html" id="python">Python</a></p>
-                <p><a href="page/raspberry.html">Raspberry Pi</a></p>
+                <p><a href="#" id="python">Python</a></p>
+                <p><a href="raspberry.html">Raspberry Pi</a></p>
               </div>
               <button onclick="myFunction('Demo4')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i> Cinéma</button>
               <div id="Demo4" class="w3-hide w3-container">
@@ -124,44 +127,76 @@
           </div>-->
 
           <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-            <img src="/w3images/avatar2.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-            <span class="w3-right w3-opacity">1 min</span>
-            <h4>John Doe</h4><br>
+            <img src="../img/python.ico" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <h4>Python</h4><br>
             <hr class="w3-clear">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Python est un langage qui peut s'utiliser dans de nombreux contextes et s'adapter à tout type d'utilisation grâce à des bibliothèques spécialisées. Il est cependant particulièrement utilisé comme langage de script pour automatiser des tâches simples mais fastidieuses, comme un script qui récupérerait la météo sur Internet ou qui s'intégrerait dans un logiciel de conception assistée par ordinateur afin d'automatiser certains enchaînements d'actions répétitives (voir la section Adoption). On l'utilise également comme langage de développement de prototype lorsqu'on a besoin d'une application fonctionnelle avant de l'optimiser avec un langage de plus bas niveau. Il est particulièrement répandu dans le monde scientifique, et possède de nombreuses bibliothèques optimisées destinées au calcul numérique.</p>
               <div class="w3-row-padding" style="margin:0 -16px">
-                <div class="w3-half">
-                  <img src="/w3images/lights.jpg" style="width:100%" alt="Northern Lights" class="w3-margin-bottom">
-                </div>
-                <div class="w3-half">
-                  <img src="/w3images/nature.jpg" style="width:100%" alt="Nature" class="w3-margin-bottom">
-              </div>
             </div>
-            <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
-            <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
           </div>
 
           <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-            <img src="/w3images/avatar5.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-            <span class="w3-right w3-opacity">16 min</span>
-            <h4>Jane Doe</h4><br>
+            <img src="../img/python.ico" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <h4>tri2.py</h4><br>
             <hr class="w3-clear">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
-            <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+            <pre>
+              <code class="Python">
+      var1 = float(input("Saisir la première variable : "))
+      var2 = float(input("Saisir la deuxième variable : "))
+
+      if (var1 > var2) :
+	        print("var1 est plus grande que var2 donc il y a changement")
+	        var1, var2 = var2, var1
+	        chaine = "var1= {} et var2 = {}".format(var1, var2)
+	        print(chaine)
+
+      else :
+	        print("Aucun changement à faire")
+	        print("var1= %f et var2 = %f" % ( var1, var2))
+              </code>
+            </pre>
+              <div class="w3-row-padding" style="margin:0 -16px">
+            </div>
           </div>
 
           <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-            <img src="/w3images/avatar6.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
-            <span class="w3-right w3-opacity">32 min</span>
-            <h4>Angie Jane</h4><br>
+            <img src="../img/python.ico" class="w3-left w3-circle w3-margin-right" style="width:60px">
+            <h4>tri2.py</h4><br>
             <hr class="w3-clear">
-            <p>Have you seen this?</p>
-            <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>
-            <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button>
+            <pre>
+              <code class="Python">
+      import cmath
+
+      a = float(input("Donnez la valeur de 'a' : "))
+      b = float(input("Donnez la valeur de 'b' : "))
+      c = float(input("Donnez la valeur de 'c' : "))
+
+      delta = b**2 - 4*a*c
+
+      if delta == 0:
+          print("Il y a une racine réelle")
+          x = -b/(2*a)
+          print("x = {:.2f}".format(x))
+
+      elif delta > 0:
+          print("Il y a deux racines réelles")
+          x1 = (-b-(delta**(1/2))) / (2*a)
+          x2 = (-b+(delta**(1/2))) / (2*a)
+          print("x1 = {:.2f} et x2 = {:.2f}".format(x1, x2))
+
+      elif delta < 0:
+          print("Il y a deux racines complexes")
+          x1 = (-b-cmath.sqrt(delta)) / (2*a)
+          x2 = (-b+cmath.sqrt(delta)) / (2*a)
+          print("x1 = {:.2f} et x2 = {:.2f}".format(x1, x2))
+
+      else :
+          print("erreur")
+              </code>
+            </pre>
+          <div class="w3-row-padding" style="margin:0 -16px">
           </div>
+        </div>
 
         <!-- End Middle Column -->
         </div>
