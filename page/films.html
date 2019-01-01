@@ -5,7 +5,7 @@
     <title>Mon site</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="../img/icon.ico" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="../css/w3-theme.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
@@ -14,9 +14,6 @@
     <style>
       html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css">
-    <script>hljs.initHighlightingOnLoad();</script>
 
   </head>
 
@@ -71,7 +68,7 @@
               </div>
               <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><img src="https://img.icons8.com/ios-glyphs/30/000000/computer-support.png" height="20px" width="20px"> Informatique</button>
               <div id="Demo2" class="w3-hide w3-container">
-                <p><a href="#" id="python">Python</a></p>
+                <p><a href="python.html" id="python">Python</a></p>
                 <p><a href="raspberry.html">Raspberry Pi</a></p>
               </div>
               <button onclick="myFunction('Demo4')" class="w3-button w3-block w3-theme-l1 w3-left-align"><img src="https://img.icons8.com/ios-glyphs/30/000000/movie.png" height="20px" width="20px"></i> Cinéma</button>
@@ -127,76 +124,21 @@
           </div>-->
 
           <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-            <img src="../img/python.ico" class="w3-left w3-circle w3-margin-right" style="width:60px">
-            <h4>Python</h4><br>
+            <h4>Bienvenu !</h4><br>
             <hr class="w3-clear">
-            <p>Python est un langage qui peut s'utiliser dans de nombreux contextes et s'adapter à tout type d'utilisation grâce à des bibliothèques spécialisées. Il est cependant particulièrement utilisé comme langage de script pour automatiser des tâches simples mais fastidieuses, comme un script qui récupérerait la météo sur Internet ou qui s'intégrerait dans un logiciel de conception assistée par ordinateur afin d'automatiser certains enchaînements d'actions répétitives (voir la section Adoption). On l'utilise également comme langage de développement de prototype lorsqu'on a besoin d'une application fonctionnelle avant de l'optimiser avec un langage de plus bas niveau. Il est particulièrement répandu dans le monde scientifique, et possède de nombreuses bibliothèques optimisées destinées au calcul numérique.</p>
-              <div class="w3-row-padding" style="margin:0 -16px">
-            </div>
+            <p>Ce site est surtout utilisé comme aide mémoire et pratiquer</p>
           </div>
 
           <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-            <img src="../img/python.ico" class="w3-left w3-circle w3-margin-right" style="width:60px">
-            <h4>tri2.py</h4><br>
+            <h4>DUT : Réseaux et Télécoms</h4><br>
             <hr class="w3-clear">
-            <pre>
-              <code class="Python">
-      var1 = float(input("Saisir la première variable : "))
-      var2 = float(input("Saisir la deuxième variable : "))
-
-      if (var1 > var2) :
-	        print("var1 est plus grande que var2 donc il y a changement")
-	        var1, var2 = var2, var1
-	        chaine = "var1= {} et var2 = {}".format(var1, var2)
-	        print(chaine)
-
-      else :
-	        print("Aucun changement à faire")
-	        print("var1= %f et var2 = %f" % ( var1, var2))
-              </code>
-            </pre>
-              <div class="w3-row-padding" style="margin:0 -16px">
-            </div>
+            <p>Le titulaire du DUT réseaux et télécommunications doit être capable de s'adapter aux spécificités de son entreprise. Il peut constituer ou analyser un cahier des charges, élaborer ou choisir des solutions techniques et des produits. Il peut aussi installer et mettre au point des équipements (réseaux, environnements applicatifs, systèmes d'exploitation) et assurer leur maintenance. Il peut s'agir de réseaux informatiques classiques, à intégration de services, mobiles ou autres. Enfin, il peut représenter son entreprise auprès des clients.</p>
+            <p>Les débouchés sont nombreux chez les constructeurs d'équipements réseaux, opérateurs de télécommunications fournisseurs d'accès Internet, dans les entreprises et les administrations gérant elles-mêmes leurs systèmes d'information et de communication, chez les installateurs de téléphonie et dans les ESN.</p><br>
+            <p>Source : <a href="http://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/DUT-Reseaux-et-telecommunications">Onisep</a> </p>
           </div>
 
-          <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
-            <img src="../img/python.ico" class="w3-left w3-circle w3-margin-right" style="width:60px">
-            <h4>tri2.py</h4><br>
-            <hr class="w3-clear">
-            <pre>
-              <code class="Python">
-      import cmath
 
-      a = float(input("Donnez la valeur de 'a' : "))
-      b = float(input("Donnez la valeur de 'b' : "))
-      c = float(input("Donnez la valeur de 'c' : "))
 
-      delta = b**2 - 4*a*c
-
-      if delta == 0:
-          print("Il y a une racine réelle")
-          x = -b/(2*a)
-          print("x = {:.2f}".format(x))
-
-      elif delta > 0:
-          print("Il y a deux racines réelles")
-          x1 = (-b-(delta**(1/2))) / (2*a)
-          x2 = (-b+(delta**(1/2))) / (2*a)
-          print("x1 = {:.2f} et x2 = {:.2f}".format(x1, x2))
-
-      elif delta < 0:
-          print("Il y a deux racines complexes")
-          x1 = (-b-cmath.sqrt(delta)) / (2*a)
-          x2 = (-b+cmath.sqrt(delta)) / (2*a)
-          print("x1 = {:.2f} et x2 = {:.2f}".format(x1, x2))
-
-      else :
-          print("erreur")
-              </code>
-            </pre>
-          <div class="w3-row-padding" style="margin:0 -16px">
-          </div>
-        </div>
 
         <!-- End Middle Column -->
         </div>
@@ -211,6 +153,7 @@
     <!-- Footer -->
     <footer class="w3-container w3-theme-d3 w3-padding-16">
       <h5>Footer</h5>
+      <p>Icons : <a href="https://icones8.fr/icons">icones8</a> </p>
     </footer>
 
     <footer class="w3-container w3-theme-d5">
